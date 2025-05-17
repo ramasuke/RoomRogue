@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\ApplicationBase\ApplicationBase.cpp">
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <AssemblerListingLocation>RoomRogue\x64\Debug\</AssemblerListingLocation>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
+      <BrowseInformation>false</BrowseInformation>
+      <BrowseInformationFile>RoomRogue\x64\Debug\</BrowseInformationFile>
+      <CompileAs>Default</CompileAs>
+      <ConformanceMode>true</ConformanceMode>
+      <DiagnosticsFormat>Column</DiagnosticsFormat>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <ErrorReporting>Prompt</ErrorReporting>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <EnableASAN>false</EnableASAN>
+      <EnableFuzzer>false</EnableFuzzer>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <EnableVectorLength>NotSet</EnableVectorLength>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <GenerateModuleDependencies>false</GenerateModuleDependencies>
+      <GenerateSourceDependencies>false</GenerateSourceDependencies>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ModuleDependenciesFile>RoomRogue\x64\Debug\</ModuleDependenciesFile>
+      <ModuleOutputFile>RoomRogue\x64\Debug\</ModuleOutputFile>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ObjectFileName>RoomRogue\x64\Debug\</ObjectFileName>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ProgramDataBaseFileName>RoomRogue\x64\Debug\vc143.pdb</ProgramDataBaseFileName>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>RoomRogue\x64\Debug\RoomRogue.pch</PrecompiledHeaderOutputFile>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+      <ShowIncludes>false</ShowIncludes>
+      <SourceDependenciesFile>RoomRogue\x64\Debug\</SourceDependenciesFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <SpectreMitigation>false</SpectreMitigation>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <TrackerLogDirectory>RoomRogue\x64\Debug\RoomRogue.tlog\</TrackerLogDirectory>
+      <TranslateIncludes>false</TranslateIncludes>
+      <MinimalRebuildFromTracking>true</MinimalRebuildFromTracking>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <XMLDocumentationFileName>RoomRogue\x64\Debug\</XMLDocumentationFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <IntelJCCErratum>false</IntelJCCErratum>
+      <BuildStlModules>false</BuildStlModules>
+      <TreatAngleIncludeAsExternal>false</TreatAngleIncludeAsExternal>
+      <ExternalWarningLevel>InheritWarningLevel</ExternalWarningLevel>
+      <TreatExternalTemplatesAsInternal>true</TreatExternalTemplatesAsInternal>
+      <DisableAnalyzeExternal>false</DisableAnalyzeExternal>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_MBCS;</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;</AdditionalIncludeDirectories>
+      <LinkCompiled>true</LinkCompiled>
+    </ClCompile>
+    <ClCompile Include="Application\EditorApplication\EditorApplication.cpp" />
+    <ClCompile Include="Application\GameApplication\GameApplication.cpp" />
+    <ClCompile Include="Component\Component.cpp" />
+    <ClCompile Include="Component\SpriteRenderer\SpriteRenderer.cpp" />
+    <ClCompile Include="Component\Transform\Transform.cpp" />
+    <ClCompile Include="EntityContainer\EntityContainer.cpp" />
+    <ClCompile Include="Entity\Entity.cpp" />
+    <ClCompile Include="Library\ImGuiWrapper.cpp" />
+    <ClCompile Include="Library\ImGui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Library\ImGui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="Library\ImGui\imgui.cpp" />
+    <ClCompile Include="Library\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="Library\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Library\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="Library\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\ApplicationBase\ApplicationBase.h" />
+    <ClInclude Include="Application\ApplicationBase\EditorApplicationParam.h" />
+    <ClInclude Include="Application\EditorApplication\EditorApplication.h" />
+    <ClInclude Include="Application\GameApplication\GameApplication.h" />
+    <ClInclude Include="Component\Component.h" />
+    <ClInclude Include="Component\SpriteRenderer\SpriteRenderer.h" />
+    <ClInclude Include="Component\Transform\Transform.h" />
+    <ClInclude Include="EntityContainer\EntityContainer.h" />
+    <ClInclude Include="Entity\Entity.h" />
+    <ClInclude Include="Library\ImGuiWrapper.h" />
+    <ClInclude Include="Library\ImGui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="Library\ImGui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="Library\ImGui\imconfig.h" />
+    <ClInclude Include="Library\ImGui\imgui.h" />
+    <ClInclude Include="Library\ImGui\imgui_internal.h" />
+    <ClInclude Include="Library\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Library\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Library\ImGui\imstb_truetype.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\access.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\archives\binary.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\archives\json.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\archives\portable_binary.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\archives\xml.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\cereal.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\details\helpers.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\details\polymorphic_impl.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\details\static_object.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\details\traits.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\details\util.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\base64.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\document.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\filestream.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\genericstream.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\internal\pow10.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\internal\stack.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\prettywriter.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\rapidjson.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\reader.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\stringbuffer.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\writer.h" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\array.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\base_class.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\bitset.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\boost_variant.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\chrono.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\common.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\complex.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\deque.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\forward_list.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\list.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\map.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\memory.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\polymorphic.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\queue.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\set.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\stack.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\string.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\tuple.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\unordered_map.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\unordered_set.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\utility.hpp" />
+    <ClInclude Include="packages\cereal.1.0.0\build\native\include\cereal\types\vector.hpp" />
+    <ClInclude Include="Vector2\Vector2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library\ImGui\LICENSE.txt" />
+    <Content Include="packages\cereal.1.0.0\.signature.p7s" />
+    <Content Include="packages\cereal.1.0.0\build\configurations.autopkg" />
+    <Content Include="packages\cereal.1.0.0\build\native\cereal.targets" />
+    <Content Include="packages\cereal.1.0.0\build\native\default-propertiesui.xml" />
+    <Content Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidjson\license.txt" />
+    <Content Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidxml\license.txt" />
+    <Content Include="packages\cereal.1.0.0\build\native\include\cereal\external\rapidxml\manual.html" />
+    <Content Include="packages\cereal.1.0.0\build\publisher-info.txt" />
+    <Content Include="packages\cereal.1.0.0\cereal.1.0.0.nupkg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f0020efb-ef12-403a-87a5-e49604fa91f6}</ProjectGuid>
+    <RootNamespace>RoomRogue</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\cereal.1.0.0\build\native\cereal.targets" Condition="Exists('packages\cereal.1.0.0\build\native\cereal.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\cereal.1.0.0\build\native\cereal.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\cereal.1.0.0\build\native\cereal.targets'))" />
+  </Target>
+</Project>
